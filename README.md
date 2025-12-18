@@ -1,2 +1,7 @@
 # Demo-Net-Re-Implementation
-PyTorch Geometric reimplementation of DEMO-Net, a degree-aware GNN, with reproduced results on Facebook, USA Air, and ENZYMES datasets alongside standard GNN baselines
+
+Graph Neural Networks (GNNs) have become a powerful tool for learning from graph-structured data, but many existing architectures struggle to explicitly capture degree-based structural roles that are critical in real-world networks. DEMO-Net (Degree-specific Message Operator Network) addresses this limitation by incorporating degree awareness directly into the message-passing process, allowing nodes with different structural roles to be modeled more effectively.
+
+In this project, I present a PyTorch/PyTorch Geometric reimplementation of DEMO-Net and evaluate its performance on both node-level and graph-level classification tasks. Experiments are conducted on multiple benchmark datasets, including the Facebook page-to-page network, the USA airport connectivity network, and the ENZYMES graph classification dataset. DEMO-Net variants are compared against standard GNN baselines such as GCN, GraphSAGE, GAT, ChebyNet, DeepWL, and DIFFPOOL under consistent training and evaluation protocols.
+
+Results demonstrate that DEMO-Net effectively leverages degree-based information to achieve strong performance, particularly on tasks where node degree and structural heterogeneity play a significant role. This reimplementation emphasizes reproducibility, clarity of preprocessing, and fair comparison with baseline models, providing a practical reference for researchers studying degree-aware graph learning.
