@@ -138,10 +138,3 @@ Training Commands
 python train_enzymes.py --model deepwl
 python train_enzymes.py --model demo_hash
 python train_enzymes.py --model demo_weight
-
-✅ Summary Table
-
-Dataset	Raw Folder	    Processed Folder	    Preprocessing Scripts	        Training Script
-Facebook	            facebook_combined.txt	facebook_paper_degX_binsY	    prep_facebook_*	train_nodeclf.py
-USA Airports	        usa_airports files	    usa_airports_degX_binsY	        prep_usa_airports_*	USA_train_nodeclf.py
-ENZYMES	ENZYMES_raw	    processed by PyG	    internal to train_enzymes.py	train_enzymes.py
