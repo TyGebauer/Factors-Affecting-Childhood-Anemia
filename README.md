@@ -1,2 +1,2 @@
-# Factors-Affecting-Childhood-Anemia
-Reproducible machine learning pipeline for multi-class prediction of childhood anemia severity using national health survey data. Includes feature engineering, model training, and performance evaluation across multiple classifiers, with a focus on interpretability and robustness.
+# Demo-Net-Re-Implementation
+PyTorch Geometric reimplementation of DEMO-Net, a degree-aware GNN, with reproduced results on Facebook, USA Air, and ENZYMES datasets alongside standard GNN baselines
